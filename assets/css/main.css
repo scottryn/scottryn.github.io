@@ -2052,6 +2052,8 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			/* background: url("images/overlay.png"); */
+			border: 0.1px;
+			border-style: solid;
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2864,7 +2866,7 @@ input, select, textarea {
 
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
-				color: #fff;
+				color: #787878;
 				font-size: 2.5em;
 				height: 1em;
 				line-height: 1em;
@@ -2900,7 +2902,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-			color: #fff;
+			color: #787878;
 			height: 4em;
 			line-height: 4em;
 			opacity: 0;
@@ -2931,7 +2933,7 @@ input, select, textarea {
 				-ms-box-sizing: content-box;
 				box-sizing: content-box;
 				border-radius: 100%;
-				border: solid 3px rgba(255, 255, 255, 0.5);
+				border: solid 3px #787878;
 				content: '\f00d';
 				display: block;
 				font-size: 1em;
